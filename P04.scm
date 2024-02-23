@@ -2,7 +2,7 @@
 
 (define num-elements(lambda(x)
                         (cond((null? (cdr x))
-                             1)
+                              1)
                             (else(+ 1 (num-elements (cdr x)))))))
 
 

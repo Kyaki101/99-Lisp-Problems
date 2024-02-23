@@ -1,0 +1,3 @@
+(define rev
+ (lambda(x)
+  (cond((null? x)'()))))
